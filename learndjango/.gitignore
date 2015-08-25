@@ -1,0 +1,14 @@
+venv
+staticfiles
+*.log
+*.pot
+*.pyc
+.DS_Store
+.coverage
+htmlcov
+*.db
+db.sqlite3
+heroku.env
+*.env
+*.notes
+dump.rdb
