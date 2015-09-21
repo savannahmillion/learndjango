@@ -7,5 +7,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^home/$', 'learndjango.views.home', name='home'),
+    url(r'^home/$', 'firstapp.views.home', name='home'),
+    url(r'^$', 'firstapp.views.home', name='home'),
 )
